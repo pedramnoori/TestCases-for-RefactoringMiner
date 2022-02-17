@@ -11,7 +11,7 @@ public class App
         System.out.println( "Hello World!" );
     }
 
-    public void toChangeName() {
+    public void changedToOther() {
         println("Here is the blabla");
     }
 }
