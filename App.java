@@ -12,11 +12,12 @@ public class App
     }
 
     public void againChanged() {
-        println("Here is the blabla");
-        int bizzar = 10;
+        String name = "Ahmad";
 
-        if (bizzar > 12) {
-            println("Great!!");
+        if (name.contains("Reza")) {
+            float f = 4.2221;
         }
+
+        print("f not finede");
     }
 }
