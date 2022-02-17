@@ -13,6 +13,6 @@ public class App
 
     public void changedToOther() {
         println("Here is the blabla");
-        int a = 10;
+        int bizzar = 10;
     }
 }
