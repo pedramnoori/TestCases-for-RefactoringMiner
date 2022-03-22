@@ -26,11 +26,13 @@ public class Test {
     }
 
     public void calc() {
-        int c = 2 * this.a + this.b;
 
-        if (c > 10)
+        if (c() > 10)
             System.out.println("Nice!");
         else
             System.out.println("NOOO");
+    }
+    public void c() {
+        reutrn 2 * this.a + this.b;
     }
 }
