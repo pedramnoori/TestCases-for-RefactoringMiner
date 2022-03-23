@@ -4,6 +4,10 @@ void printOwing() {
 // calculate outstanding while (e.hasMoreElements()) {
         Order each = (Order) e.nextElement();
         outstanding += each.getAmount(); }
-//print details
-        System.out.println ("name:" + _name); System.out.println ("amount" + outstanding);
+        printDetails(outstanding);
+        }
+
+        void printDetails (double outstanding) {
+    System.out.println ("name:" + _name);
+    System.out.println ("amount" + outstanding);
         }
