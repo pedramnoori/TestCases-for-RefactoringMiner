@@ -21,9 +21,11 @@ public class Main {
         System.out.println ("amount" + outstanding);
     }
 
-    private void extracted() {
+    private void extractedMethod() {
         System.out.println ("**************************");
         System.out.println ("***** Customer Owes ******");
         System.out.println ("**************************");
+        System.out.println ("--------------------------");
+        System.out.println ("--------------------------");
     }
 }
