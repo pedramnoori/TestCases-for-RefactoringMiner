@@ -27,12 +27,12 @@ public class Test {
 
     public void calc() {
 
-        if (c() > 10)
+        if (b() > 10)
             System.out.println("Nice!");
         else
             System.out.println("NOOO");
     }
-    public void c() {
+    public void b() {
         reutrn 2 * this.a + this.b;
     }
 }
