@@ -31,6 +31,18 @@ public class Test {
             System.out.println("Nice!");
         else
             System.out.println("NOOO");
+
+        System.out.println("This line of code is added for some purpose");
+        System.out.println("This line " + b());
+        switch (b()){
+            case 1:
+                System.out.println("1");
+                break
+            case 2:
+                System.out.printf("2");
+                break
+            
+        }
     }
     public void b() {
         reutrn 2 * this.a + this.b;
