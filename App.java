@@ -1,23 +1,9 @@
-package com.company;
-
-public class App {
-    void printOwing() {
-        Enumeration e = _orders.elements();
-        double outstanding = 0.0;
-        extracted();
-
-        while (e.hasMoreElements()) {
-            Order each = (Order) e.nextElement();
-            outstanding += each.getAmount();
-        }
-
-        System.out.println ("name:" + _name);
-        System.out.println ("amount" + outstanding);
+package printAvg;
+public class printAvgTest {
+    public static void main(String[] args) {
+        System.out.println(10/2);
     }
-
-    private void extracted() {
-        System.out.println ("**************************");
-        System.out.println ("***** Customer Owes ******");
-        System.out.println ("**************************");
+    public static void printAvg(int sum, int count) {
+        //Todo:
     }
 }
