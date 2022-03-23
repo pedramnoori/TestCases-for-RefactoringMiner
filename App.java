@@ -32,6 +32,13 @@ public class Test {
         else
             System.out.println("NOOO");
 
+        }
+    }
+    public void b() {
+        reutrn 2 * this.a + this.b;
+    }
+
+    public void extractedFragment() {
         System.out.println("This line of code is added for some purpose");
         System.out.println("This line " + b());
         switch (b()){
@@ -41,10 +48,5 @@ public class Test {
             case 2:
                 System.out.printf("2");
                 break
-            
+
         }
-    }
-    public void b() {
-        reutrn 2 * this.a + this.b;
-    }
-}
