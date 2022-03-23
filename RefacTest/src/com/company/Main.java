@@ -21,13 +21,16 @@ public class Main {
         System.out.println ("amount" + outstanding);
     }
 
-    private void extractedMethod() {
+    private void extractedMethodTwo() {
         System.out.println ("**************************");
         System.out.println ("***** Customer Owes ******");
         System.out.println ("**************************");
         System.out.println ("--------------------------");
         System.out.println("asdasdasasdasdasddasasd");
         System.out.println("asdasadsdasasdasdasasdads");
+        doSomethingElse();
+        alsoDoSomethingElse();
+        int b = a - c * 2 - 1;
 
     }
 }
