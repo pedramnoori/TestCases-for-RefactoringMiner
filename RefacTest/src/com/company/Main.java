@@ -23,17 +23,5 @@ public class Main {
 
     private void extractedMethodTwo() {
         System.out.println ("**************************");
-        System.out.println ("***** Customer Owes ******");
-        System.out.println ("**************************");
-        System.out.println ("--------------------------");
-        System.out.println ("--------------------------");
-        System.out.println ("++++++++++++++++++++++++++");
-        System.out.println ("++++++++++++++++++++++++++");
-        System.out.println ("++++++++++++++++++++++++++");
-        System.out.println ("++++++++++++++++++++++++++");
-        System.out.println ("++++++++++++++++++++++++++");
-        System.out.println ("++++++++++++++++++++++++++");
-        System.out.println ("++++++++++++++++++++++++++");
-        System.out.println ("++++++++++++++++++++++++++");
     }
 }
