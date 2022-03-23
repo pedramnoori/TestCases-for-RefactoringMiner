@@ -6,5 +6,4 @@ public class printAvgTest {
     public static void main(String[] args) {
         printAvg(10,2);
     }
-
 }
