@@ -7,7 +7,7 @@ public class Test {
         printBanner();
         int t3 = calValue(t1, t2);
 
-        System.out.println("The expected value is " + t3);
+        System.out.println("The expected would be " + t3);
 
     }
 
