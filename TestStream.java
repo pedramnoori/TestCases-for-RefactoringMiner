@@ -12,9 +12,12 @@ public static void main(String[] args) {
         movies.add("Robot");
 		movies.add("Wanted");
 		
-		for(int i=0;i<movies.size();i++)
-		{
-				System.out.println(movies.get(i));
-		}
-	}
+        printList(movies);
+    }
+
+public static void printList(List<String> movies) {
+    
+    movies.stream().forEach(System.out::println);
+    }
+
 }
