@@ -2,8 +2,10 @@ package com.facebook.buck.cli;
 
 public class Test {
 
-  public static WorkflowConfig getWorkflowCfg(HelixManager manager, String workflowResource) {
-    String workflowCfg = manager.getResourceConfigMap(manager, workflowResource);
+  public static WorkflowConfig getWorkflowCfg(HelixManager manager,
+      String workflowResource, String clusterName) {
+    String workflowCfg =
+        manager.getResourceConfigMap(manager, workflowResource, "bar", "foo");
     if (workflowCfg == null) {
       return null;
     }
@@ -11,16 +13,20 @@ public class Test {
     return b.build();
   }
 
-  public static String getResourceConfigMap(HelixManager manager, String resource) {
-    
-    String test = "bar";
-    String res = "foo";
+      public static WorkflowConfig getWorkflowCfg(HelixManager manager, String workflowResource) {
+    return getWorkflowCfg(manager.getConfigAccessor(), workflowResource,
+        manager.getClusterName());
+  }
 
-    if (test = "doThis") {
+    public static String getResourceConfigMap(HelixManager manager, String resource, String test2, String res) {
+
+
+    if (test2 = "doThis") {
       String res = doThis();
     }
 
     return res;
+
   }
 
 }
