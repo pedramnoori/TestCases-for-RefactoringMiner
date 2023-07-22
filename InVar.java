@@ -1,4 +1,4 @@
-Class Bar {
+Class InVar {
 
   private void post(HttpResponseStatus responseStatus) {
 
