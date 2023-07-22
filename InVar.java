@@ -1,13 +1,16 @@
 Class InVar {
 
   private void post(HttpResponseStatus responseStatus) {
-
-    doSomething();
     
+    doSomething();
+
+    extractedMethod(responseStatus);
+  }
+
+  private void extractedMethod(HttpResponseStatus responseStatus) {
     if (channel.isOpen()) {
-      ChannelFuture lastContentFuture = channel.writeAndFlush(LastHttpContent.EMPTY_LAST_CONTENT);
       if (!isKeepAlive) {
-        lastContentFuture.addListener(ChannelFutureListener.CLOSE);
+         channel.writeAndFlush(LastHttpContent.EMPTY_LAST_CONTENT).addListener(ChannelFutureListener.CLOSE);
       }
     }
   }
